@@ -1,0 +1,35 @@
+main {
+  display: grid;
+  grid-template-columns:0.40fr 0.60fr;
+  grid-gap:15px;
+}
+
+main > section {
+  height: 250px;
+  background: salmon;
+}
+
+section#ds-data-collection{
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+section#ds-dataviz{
+  grid-column: 4 / 10;
+  grid-row: 1 / 2;
+}
+section#ds-video{
+  grid-column: 4 / 10;
+  grid-row: 2 / 3;
+}
+section#ds-conclusion{
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+}
+header {
+  height: 400px;
+  background: salmon;
+}
+  h1 {
+  font-size: 80px;
+}
+section p {
