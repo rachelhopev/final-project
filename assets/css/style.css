@@ -1,3 +1,69 @@
+header {
+  height: 150px;
+  background: lightcoral;
+}
+
+h3 {
+  margin-top: 75px;
+}
+
+h4 {
+  margin-top: 75px;
+}
+
+h5, h6 {
+  margin-top: 300px;
+}
+
+h1 {
+  height: 30px;
+  font-size: 100px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+h2 {
+  line-height: 55px;
+  height: 30px;
+  margin-left: 505px;
+  font-size: 22px;
+  font-family: 'Merienda',cursive;
+}
+
+body {
+  background-color: lemonchiffon;
+}
+
+h3 {
+  background: lightcoral;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px
+}
+
+h4 {
+  background: lightcoral;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px
+}
+
+h5 {
+  background: lightcoral;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px
+}
+
+h6 {
+  background: lightcoral;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 30px
+}
+
+img {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 300px;
+  width: 500px
+}
+
 main {
   display: grid;
   grid-template-columns:0.40fr 0.60fr;
@@ -25,11 +91,3 @@ section#ds-conclusion{
   grid-column: 1 / 4;
   grid-row: 2 / 3;
 }
-header {
-  height: 400px;
-  background: salmon;
-}
-  h1 {
-  font-size: 80px;
-}
-section p {
