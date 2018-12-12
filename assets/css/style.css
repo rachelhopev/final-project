@@ -12,7 +12,7 @@ h4 {
 }
 
 h5, h6 {
-  margin-top: 300px;
+  margin-top: 250px;
 }
 
 h1 {
@@ -26,11 +26,17 @@ h2 {
   height: 30px;
   margin-left: 505px;
   font-size: 22px;
-  font-family: 'Merienda',cursive;
+  font-family: 'Merienda One',cursive;
 }
 
 body {
   background-color: lemonchiffon;
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 h3 {
